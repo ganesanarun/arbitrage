@@ -15,6 +15,7 @@ dependencies {
     implementation("io.ktor:ktor-serialization-kotlinx-json-jvm:2.3.10")
     testImplementation("io.ktor:ktor-server-tests-jvm:2.3.10")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.9.23")
+    testImplementation("io.mockk:mockk:1.13.10")
 }
 
 application {
